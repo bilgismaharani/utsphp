@@ -27,7 +27,7 @@ session_start();
                         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="jobs.php">Services </a>
+                        <a class="nav-link" href="jobs.php">About </a>
                     </li>                
                 </ul>
                 <form class="form-inline my-2 my-lg-0" action="logout.php" method="post">

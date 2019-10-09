@@ -34,7 +34,7 @@
                         <a class="nav-link" href="index.php">Home </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="jobs.php">Services <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="jobs.php">About <span class="sr-only">(current)</span></a>
                     </li>                
                 </ul>
                 <form class="form-inline my-2 my-lg-0" action="logon.php" method="post">
@@ -45,7 +45,6 @@
     </header>
         <div class="row">
             <div class="col-md-8">
-                <img src="assets/alexander-popov-LoOC6U6gQpQ-unsplash.jpg" class="img-fluid">
             </div>
             <div class="col-md-4">
                 <div class="card">

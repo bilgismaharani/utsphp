@@ -32,7 +32,7 @@
                         <a class="nav-link" href="index.php">Home </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="jobs.php">Services <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="jobs.php">About <span class="sr-only">(current)</span></a>
                     </li>                
                 </ul>
                 <form class="form-inline my-2 my-lg-0" action="logout.php" method="post">
