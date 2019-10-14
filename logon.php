@@ -1,5 +1,8 @@
 <?php 
     session_start();
+    if (isset($_SESSION['log'])) {
+        header("location:index.php");   
+    }
     if (isset($_POST['send'])) {
         $user = $_POST['user'];
         $pass = $_POST['pass'];
@@ -43,13 +46,14 @@
             </div>
         </nav>
     </header>
+    <center>
         <div class="row">
-            <div class="col-md-8">
-            </div>
-            <div class="col-md-4">
+            <div class="col-md-12">
+            <div class = "col-md-4">
                 <div class="card">
                     <div class="card-body">
                     <form action="" method="post">
+
                         <div class="form-group">
                             <label for="">Username</label>
                             <input type="text" name="user" class="form-control" id="">
@@ -64,8 +68,10 @@
                     </form>
                     </div>
                 </div>
+                </div>
             </div>
         </div>
+    </center>    
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>

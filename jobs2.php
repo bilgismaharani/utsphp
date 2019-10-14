@@ -67,11 +67,11 @@
                                 <div class="form-group">
                                     <label>Jenis Barang</label>
                                     <select class="custom-select custom-select-md mb-3" name="jenis[]">
-                                            <option value="Elektronik" selected>Elektronik</option>
+                                            <option value="Elektronik" selected>Alat tulis</option>
                                             <option value="Fashion">Fashion</option>
-                                            <option value="Otomotif">Otomotif</option>
-                                            <option value="Makanan">Makanan</option>
-                                            <option value="Minuman">Minuman</option>
+                                            <option value="Otomotif">Bahan pokok</option>
+                                            <option value="Makanan">Elektronik</option>
+                                            <option value="Minuman">Aksesoris</option>
                                     </select>
                                 </div>
                                 <div class="form-group">

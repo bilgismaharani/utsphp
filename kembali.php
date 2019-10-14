@@ -42,7 +42,7 @@ session_start();
         </nav>
     </header><br><br>
     <div class="container align-items-center">
-        <div class="jumbotron bg-info">
+        <div>
             <div class="card">
                 <div class="card-body">
                 <div class="card-header"><center><h2>Data Berhasil Di Input!!</h2></center></div>

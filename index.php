@@ -38,7 +38,7 @@ session_start();
     </header>
 <br><br><br><br>
     <div class="container align-items-center">
-        <div class="jumbotron bg-info">
+        <div>
             <div class="card">
                 <div class="card-body">
                 <div class="card-header"><center><h2>Selamat Datang Di Toko Kami</h2></center></div>

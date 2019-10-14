@@ -54,8 +54,8 @@ if (isset($_POST['send'])) {
     <div class="container">
         <div class="row justify-content-lg-center" style="padding:20px;">
             <div class="col-md-12">
-                <div class="card text-white bg-info mb-3 align-content-center">
-                    <div class="card-header">Invoice Pembelian Barang</div><br>
+                <div class="card text-black mb-3 align-content-center">
+                    <div class="card-header">Data Pembelian Barang</div><br>
                     <div class="col-md-12">
                         <div class="table-responsive">
                             <table class="table">
@@ -74,7 +74,7 @@ if (isset($_POST['send'])) {
                                     <td><?php echo $tgl; ?></td>
                                 </tr>
                                 <tr>
-                                    <th colspan="10"><center>Daftar Buku Yang Dibeli</center></th>
+                                    <th colspan="10"><center>Daftar Yang Dibeli</center></th>
                                 </tr>
                                 
                                 
@@ -91,7 +91,7 @@ if (isset($_POST['send'])) {
                                     <th>Total Harga(Rp)</th>
                                 </tr>
                                 <?php
-                                    for ($i=0; $i <= count($jml); $i++) { 
+                                    for ($i=0; $i < count($jml); $i++) { 
                                         # code...
                                         $toth[$i] = $jmlbr[$i]*$hargas[$i];
                                         
